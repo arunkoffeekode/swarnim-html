@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+      <title>Swarnim</title>
+      <!--Boostrap Core Css Start-->
+      <!-- <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+      <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" type="text/css" href="css/ionicon.min.css">
+      <link rel="stylesheet" href="css/feathericon.min.css">
+      <!--Boostrap Core Css end-->
+      <!--Google Font Css Start-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+      <!--Google Font Css end-->
+      <!--External Core Css start-->
+      <link href="css/default.css" rel="stylesheet" type="text/css" />
+      <link href="css/style.css" rel="stylesheet" type="text/css" />
+      <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+      <link href="css/animate.min.css" rel="stylesheet" />
+      <link href="css/datatables.min.css" rel="stylesheet" />
+   </head>
+   <body>
+      <div class="page-loader ">
+         <div class="spinner"></div>
+         <div class="img-loader">
+         <img src="images/aew.png" alt="">
+      </div>
+      </div>
+      <div class="main-wrapper">
+         <!-- start-Header -->
+         <div class="header">
+            <a href="javascript:void(0);" id="toggle_btn">
+            <i class="fe fe-text-align-left"></i>
+            </a>
+            <div class="header-left">
+               <a href="index-2.html" class="logo">
+               <img src="images/aew.png" alt="Logo">
+               </a>
+               <a href="index-2.html" class="logo logo-small">
+               <img src="images/aew.png" alt="Logo">
+               </a>
+            </div>
+            <div class="top-nav-search">
+               <form>
+                  <input type="text" class="form-control" placeholder="Search Here..">
+                  <button class="btn" type="submit"><i class="fa fa-search"></i></button>
+               </form>
+            </div>
+            <a class="mobile_btn" id="mobile_btn">
+            <i class="fa fa-bars"></i>
+            </a>
+            <ul class="nav user-menu">
+               <li class="nav-item dropdown noti-dropdown">
+                  <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                  <i class="fa fa-bell"></i> <span class="badge badge-pill">3</span>
+                  </a>
+                  <div class="dropdown-menu notifications">
+                     <div class="topnav-dropdown-header">
+                        <span class="notification-title">Notifications</span>
+                        <a href="javascript:void(0)" class="clear-noti"> Clear All </a>
+                     </div>
+                     <div class="noti-content">
+                        <ul class="notification-list">
+                           <li class="notification-message">
+                              <a href="#">
+                                 <div class="media">
+                                    <span class="avatar avatar-sm">
+                                    <img class="avatar-img rounded-circle" alt="User Image" src="assets/img/profiles/avatar-02.jpg">
+                                    </span>
+                                    <div class="media-body">
+                                       <p class="noti-details"><span class="noti-title">Carlson Tech</span> has approved <span class="noti-title">your estimate</span></p>
+                                       <p class="noti-time"><span class="notification-time">4 mins ago</span></p>
+                                    </div>
+                                 </div>
+                              </a>
+                           </li>
+                           <li class="notification-message">
+                              <a href="#">
+                                 <div class="media">
+                                    <span class="avatar avatar-sm">
+                                    <img class="avatar-img rounded-circle" alt="User Image" src="assets/img/profiles/avatar-11.jpg">
+                                    </span>
+                                    <div class="media-body">
+                                       <p class="noti-details"><span class="noti-title">International Software Inc</span> has sent you a invoice in the amount of <span class="noti-title">$218</span></p>
+                                       <p class="noti-time"><span class="notification-time">6 mins ago</span></p>
+                                    </div>
+                                 </div>
+                              </a>
+                           </li>
+                           <li class="notification-message">
+                              <a href="#">
+                                 <div class="media">
+                                    <span class="avatar avatar-sm">
+                                    <img class="avatar-img rounded-circle" alt="User Image" src="assets/img/profiles/avatar-17.jpg">
+                                    </span>
+                                    <div class="media-body">
+                                       <p class="noti-details"><span class="noti-title">John Hendry</span> sent a cancellation request <span class="noti-title">Apple iPhone XR</span></p>
+                                       <p class="noti-time"><span class="notification-time">8 mins ago</span></p>
+                                    </div>
+                                 </div>
+                              </a>
+                           </li>
+                           <li class="notification-message">
+                              <a href="#">
+                                 <div class="media">
+                                    <span class="avatar avatar-sm">
+                                    <img class="avatar-img rounded-circle" alt="User Image" src="assets/img/profiles/avatar-13.jpg">
+                                    </span>
+                                    <div class="media-body">
+                                       <p class="noti-details"><span class="noti-title">Mercury Software Inc</span> added a new product <span class="noti-title">Apple MacBook Pro</span></p>
+                                       <p class="noti-time"><span class="notification-time">12 mins ago</span></p>
+                                    </div>
+                                 </div>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="topnav-dropdown-footer">
+                        <a href="#">View all Notifications</a>
+                     </div>
+                  </div>
+               </li>
+               <li class="nav-item dropdown has-arrow">
+                  <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                  <span class="text-white pr-3">Sham Jewellers</span>
+                  <span class="user-img"><img class="rounded-circle" src="images/avatar-01.jpg" width="31" alt="Ryan Taylor"></span>
+                  </a>
+                  <div class="dropdown-menu">
+                     <a class="dropdown-item" href="profile.html">My Profile</a>
+                     <a class="dropdown-item" href="profile.html">DB Backup</a>
+                     <a class="dropdown-item" href="login.html">Setting</a>
+                     <a class="dropdown-item" href="login.html">Logout</a>
+                  </div>
+               </li>
+            </ul>
+         </div>
+         <!-- End-Header -->
+         <!-- start-sidebar -->
+         <div class="sidebar" id="sidebar">
+            <div class="sidebar-inner slimscroll">
+               <div id="sidebar-menu" class="sidebar-menu">
+                  <ul>
+                     <li>
+                        <a href="#"><img src="images/dashboard-icon.png" alt=""> <span>Dashboard</span></a>
+                     </li>
+                     <li>
+                        <a href="master.html"><img src="images/master-icon.png" alt=""> <span>Master</span></a>
+                     </li>
+                     <li>
+                        <a href="trading-account.html"><img src="images/tranding-acc.png" alt=""><span>tRADING aCCOUNT</span></a>
+                     </li>
+                     <li>
+                        <a href="category.html"><img src="images/categ.png" alt=""><span>category</span></a>
+                     </li>
+                     <li>
+                        <a href="stock-setup.html"><img src="images/stock.png" alt=""><span>Stock Setup</span></a>
+                     </li>
+                     <li>
+                        <a href="seller-setup.html"><img src="images/seller-icon.png" alt=""><span>seller setup</span></a>
+                     </li>
+                     <li class="submenu active">
+                        <a href="#"><img src="images/purchase.png" alt=""><span> Purchase </span> <span class="menu-arrow" style="color: #FF7685;"></span></a>
+                        <ul style="display: none;">
+                        <li><a href="purchase-order.html">Purchase order</a></li>
+                        <li><a href="item-purchase-order.html">Item Purchase order </a></li>
+                        <li><a href="">Purchase list</a></li>
+                        <li><a href="purchase-return.html">Purchase Return</a></li>
+                        </ul>
+                        </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <!-- End-sidebar -->
+         <!-- start-Content -->
+         <div class="page-wrapper">
+            <div class="content container-fluid">
+               <div class="row">
+                  <div class="col-sm-12 col-md-12 col-xl-12 col-lg-12">
+                     <div class="info-title">
+                        <div class="title-content">
+                           <h3>Item Purchase order</h3>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="purchase">
+                  <div class="row">
+                     <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12">
+                        <div class="purchase-content">
+                           <form>
+                              <div class="form-group form-row">
+                                 <div class="col-sm-1">
+                                    <label for="inputName" >Seller Name</label>
+                                 </div>
+                                 <div class="col-sm-3">
+                                    <div class="d-flex">
+                                       <select class="form-control" style="height: 40px;">
+                                          <option value="1" selected>Select</option>
+                                          <option value="2">Two</option>
+                                          <option value="3">Three</option>
+                                       </select>
+                                       <input type="button" class="btn btn-secondary-1" value="+" />
+                                    </div>
+                                 </div>
+                                 <div class="col-sm-2">
+                                    <label for="inputName" class="space">Purchase Invoice No</label>
+                                 </div>
+                                 <div class="col-sm-2">
+                                    <input type="text" class="form-control">
+                                 </div>
+                                 <div class="col-sm-2">
+                                    <label for="inputName" class="space">Purchase File</label>
+                                 </div>
+                                 <div class="col-sm-2">
+                                    <select name="" id="" class="form-control">
+                                       <option value="1" selected>Select</option>
+                                       <option value="1">1</option>
+                                       <option value="1">2</option>
+                                    </select>
+                                 </div>
+                              </div>
+                              <div class="form-group form-row">
+                                 <div class="col-sm-1">
+                                    <label for="inputName" >GSTIN No.</label>
+                                 </div>
+                                 <div class="col-sm-3">
+                                    <input type="text" class="form-control">
+                                 </div>
+                                 <div class="col-sm-2">
+                                    <label for="inputName" class="space">Purchase Date</label>
+                                 </div>
+                                 <div class="col-sm-2">
+                                    <input type="date" class="form-control">
+                                 </div>
+                                 <div class="col-sm-2">
+                                    <label for="inputName" class="space">Place of Supply</label>
+                                 </div>
+                                 <div class="col-sm-2">
+                                    <select name="" id="" class="form-control">
+                                       <option value="1" selected>Select</option>
+                                       <option value="1">1</option>
+                                       <option value="1">2</option>
+                                    </select>
+                                 </div>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                     <div class="col-md-12 col-xl-12 col-sm-12">
+                        <div class="new-section-1">
+                           <div class="form-section">
+                              <form>
+                                 <div class="form-group form-row">
+                                    <label>
+                                    <input type="radio" name="radio"/>
+                                    <span>category wise</span>
+                                    </label>
+                                    <label>
+                                    <input type="radio" name="radio"/>
+                                    <span>item wise</span>
+                                    </label>
+                                    
+                                 </div>
+                              </form>
+                           </div>
+                           <div class="button-section">
+                              <button type="button" class="btn btn-add" data-toggle="modal" data-target="#exampleModal">+ Add Purchase Item</button>
+                               <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                           <div class="modal-dialog" role="document">
+                           <div class="modal-content">
+                              <div class="modal-header">
+                                 <h5 id="exampleModalLabel">Add Purchase Item</h5>
+                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                 <span aria-hidden="true">&times;</span>
+                                 </button>
+                              </div>
+                              <div class="col-md-12">
+                                 <div class="item-form">
+                                    <form>
+                                       <div class="form-group form-row">
+                                          <label for="inputName" class="lbl col-sm-3">Matel</label>
+                                          <div class="col-sm-9">
+                                         <select name="" id="" class="form-control">
+                                            <option value="1">Ex : Gold</option>
+                                         </select>
+                                         </div>
+                                       </div>
+                                       <div class="form-group form-row">
+                                          <label for="inputName" class="lbl col-sm-3">Category</label>
+                                          <div class="col-sm-9">
+                                             <select name="" id="" class="form-control">
+                                                <option value="1">Ex : Ring</option>
+                                             </select>
+                                         </div>
+                                       </div>
+                                       <div class="form-group form-row">
+                                          <label for="inputName" class="lbl col-sm-3">Matel Purity</label>
+                                          <div class="col-sm-9">
+                                          <input type="text" class="form-control" id="inputcopmtype">
+                                         </div>
+                                       </div>
+                                       <div class="form-group form-row">
+                                          <label for="inputName" class="lbl col-sm-3">Weight</label>
+                                          <div class="col-sm-9">
+                                            <div class="input-group">
+                                              <input type="text" class="form-control" id="inputcopmtype" placeholder="300">
+                                              <div class="input-group-append">
+                                                <select name="" id="" class="form-control-2">
+                                                  <option value="">gm</option>
+                                                  <option value="">Kg</option>
+                                                </select>
+                                              </div>
+                                         </div>
+                                       </div>
+                                         </div>
+                                         <div class="form-group form-row">
+                                          <label for="inputName" class="lbl col-sm-3">Net Wt.</label>
+                                          <div class="col-sm-9">
+                                            <div class="input-group">
+                                              <input type="text" class="form-control" id="inputcopmtype" placeholder="300">
+                                              <div class="input-group-append">
+                                                <select name="" id="" class="form-control-2">
+                                                  <option value="">gm</option>
+                                                  <option value="">Kg</option>
+                                                </select>
+                                              </div>
+                                         </div>
+                                       </div>
+                                         </div>
+                                         <div class="form-group form-row">
+                                          <label for="inputName" class="lbl col-sm-3">Fine Wt.</label>
+                                          <div class="col-sm-9">
+                                             <div class="input-group">
+                                               <input type="text" class="form-control" id="inputcopmtype" placeholder="300">
+                                               <div class="input-group-append">
+                                                 <select name="" id="" class="form-control-2">
+                                                   <option value="">gm</option>
+                                                   <option value="">Kg</option>
+                                                 </select>
+                                               </div>
+                                          </div>
+                                        </div>
+                                       </div>
+                                       <div class="form-group form-row">
+                                          <label for="inputName" class="lbl col-sm-3">PCS</label>
+                                          <div class="col-sm-9">
+                                          <input type="text" class="form-control" id="inputcopmtype">
+                                         </div>
+                                       </div>
+                                       <div class="form-group form-row">
+                                          <label for="inputName" class="lbl col-sm-3">Other</label>
+                                          <div class="col-sm-9">
+                                          <input type="text" class="form-control" id="inputcopmtype">
+                                         </div>
+                                       </div>
+                                       <div class="form-group form-row">
+                                          <label for="inputName" class="lbl col-sm-3">Matel Rate</label>
+                                          <div class="col-sm-9">
+                                          <input type="text" class="form-control" id="inputcopmtype">
+                                         </div>
+                                       </div>
+                                       <div class="form-group form-row">
+                                          <label for="inputName" class="lbl col-sm-3">Matel Amount</label>
+                                          <div class="col-sm-9">
+                                          <input type="text" class="form-control" id="inputcopmtype">
+                                         </div>
+                                       </div>
+                                       <div class="form-group form-row">
+                                          <label for="inputName" class="lbl col-sm-3">Labour Rate</label>
+                                          <div class="col-sm-9">
+                                          <input type="text" class="form-control" id="inputcopmtype">
+                                         </div>
+                                       </div>
+                                       <div class="form-group form-row">
+                                          <label for="inputName" class="lbl col-sm-3">Labour Amount</label>
+                                          <div class="col-sm-9">
+                                          <input type="text" class="form-control" id="inputcopmtype">
+                                         </div>
+                                       </div>
+                                       <div class="form-group form-row">
+                                          <label for="inputName" class="lbl col-sm-3">Total</label>
+                                          <div class="col-sm-9">
+                                          <input type="text" class="form-control" id="inputcopmtype">
+                                         </div>
+                                       </div>
+                                       <div class="form-group form-row">
+                                          <label for="inputName" class="lbl col-sm-3">CGST</label>
+                                          <div class="col-sm-9">
+                                          <input type="text" class="form-control" id="inputcopmtype">
+                                         </div>
+                                       </div>
+                                       <div class="form-group form-row">
+                                          <label for="inputName" class="lbl col-sm-3">IGST</label>
+                                          <div class="col-sm-9">
+                                          <input type="text" class="form-control" id="inputcopmtype">
+                                         </div>
+                                       </div>
+                                       <div class="form-group text-right">
+                                          <div class="col-sm-12">
+                                          <input type="submit" name="sumit_com" class="btn btn-cancel" value="submit">
+                                          <input type="submit" name="sumit_com" class="btn btn-cancel" value="Cancel">
+                                          </div>
+                                       </div>
+                                 </form>
+                                 </div>
+                             </div>
+                           </div>
+                           </div>
+                        </div>
+                           </div>  
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12 col-xl-12 col-sm-12">
+                        <div class="table-responsive scrollbar" id="style-1">
+                           <table class="datatable table table-stripped w-100">
+                              <thead>
+                                 <tr>
+                                    <th>#</th>
+                                    <th>Metal</th>
+                                    <th>Category</th>
+                                    <th>Metal Purity</th>
+                                    <th>Weight</th>
+                                    <th>Net Wt.</th>
+                                    <th>Fine Wt.</th>
+                                    <th>PCS</th>
+                                    <th>Other</th>
+                                    <th>Metal Rate</th>
+                                    <th>Metal Amount</th>
+                                    <th>Labour Rate</th>
+                                    <th>Labour Amount</th>
+                                    <th>Total</th>
+                                    <th>Tex Amount</th>
+                                    <th>Total Amount</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td><button type="button" class="btn multiplybtn"><i class="fa fa-close"></i></button></td>
+                                    <td>01</td>
+                                    <td>Gold</td>
+                                    <td>10.400</td>
+                                    <td>10.400</td>
+                                    <td>10.400</td>
+                                    <td>45890.00</td>
+                                    <td>300</td>
+                                    <td>300</td>
+                                    <td>300</td>
+                                    <td>300</td>
+                                    <td>300</td>
+                                    <td>300</td>
+                                    <td>300</td>
+                                    <td>300</td>
+                                    <td>300</td>
+                                 </tr>
+                                 <tr>
+                                    <td><button type="button" class="btn multiplybtn"><i class="fa fa-close"></i></button></td>
+                                    <td>02</td>
+                                    <td>Silver</td>
+                                    <td>10.400</td>
+                                    <td>10.400</td>
+                                    <td>10.400</td>
+                                    <td>45890.00</td>
+                                    <td>300</td>
+                                    <td>300</td>
+                                    <td>300</td>
+                                    <td>300</td>
+                                    <td>300</td>
+                                    <td>300</td>
+                                    <td>300</td>
+                                    <td>300</td>
+                                    <td>300</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                           <br>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12 col-xl-12 col-sm-12 mt-2">
+                        <div class="amount">
+                           <button type="button" class="btn btn-amt">Net Amount</button>
+                           <label for="">22,346,50.00</label>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12 col-xl-12 col-sm-12">
+                        <div class="new-section-1">
+                           <h5> <i class="fa fa-file"></i> Receipt Mode</h5>
+                        </div>
+                     </div>
+                  </div>
+               
+                  <div class="row m-1">
+                     <div class="col-sm-3 col-md-3 col-xl-3 col-lg-3">
+                        <div class="checkbox-section">
+                          <label>
+                             <input type="checkbox" name="radio" value="amt-border"/>
+                             <span>Cash Receipt</span>
+                             </label>
+                        </div>
+                       </div>
+                       <div class="col-sm-3 col-md-3 col-xl-3 col-lg-3">
+                          <div class="checkbox-section">
+                            <label>
+                               <input type="checkbox" name="radio" value="amt-border-1"/>
+                               <span>Amount in Cheque</span>
+                               </label>
+                          </div>
+                         </div>
+                         <div class="col-sm-3 col-md-3 col-xl-3 col-lg-3">
+                          <div class="checkbox-section">
+                            <label>
+                               <input type="checkbox" name="radio" value="amt-border-2"/>
+                               <span>Amount in Card</span>
+                               </label>
+                          </div>
+                         </div>
+                         <div class="col-sm-3 col-md-3 col-xl-3 col-lg-3">
+                          <div class="checkbox-section">
+                            <label>
+                               <input type="checkbox" name="radio" value="amt-border-3"/>
+                               <span>Amount in Voucher</span>
+                               </label>
+                          </div>
+                         </div>
+                    </div>
+                 
+                     <div class="col-md-12 col-sm-12">
+                          <div class="amt-border" value="amt-border">
+                             <div class="title">
+                             <i class="fa fa-money"></i>
+                             <h6>Amount in Cash</h6>
+                          </div>
+                          <form>
+                             <div class="form-group form-row">
+                                <div class="col-sm-1">
+                                   <label for="inputName"> Amount</label>
+                                </div>
+                                <div class="col-sm-3">
+                                   <input type="text" class="form-control" placeholder="0.00">
+                                </div>
+                                <div class="col-sm-2">
+                                   <label for="inputName" class="space-1">Cash Amount in word</label>
+                                </div>
+                                <div class="col-sm-6">
+                                   <input type="text" class="form-control">
+                                </div>
+                             </div>
+                          </form>
+                          </div>
+                     </div>
+                     <div class="col-md-12 col-sm-12">
+                       <div class="amt-border-1" value="amt-border-1">
+                          <div class="title">
+                          <i class="fa fa-edit"></i>
+                          <h6>Amount in Cheque</h6>
+                       </div>
+                       <form>
+                          <div class="form-group form-row">
+                             <div class="col-sm-1">
+                                <label for="inputName"> Amount</label>
+                             </div>
+                             <div class="col-sm-3">
+                                <input type="text" class="form-control" placeholder="0.00">
+                             </div>
+                             <div class="col-sm-2">
+                                <label for="inputName" class="space-1">Cash Amount in word</label>
+                             </div>
+                             <div class="col-sm-6">
+                                <input type="text" class="form-control">
+                             </div>
+                          </div>
+                          <div class="form-group form-row">
+                             <div class="col-sm-1">
+                                <label for="inputName">Cheque No.</label>
+                             </div>
+                             <div class="col-sm-3">
+                                <input type="text" class="form-control" placeholder="0.00">
+                             </div>
+                             <div class="col-sm-2">
+                                <label for="inputName" class="space-1">Bank Name</label>
+                             </div>
+                             <div class="col-sm-6">
+                                <input type="text" class="form-control">
+                             </div>
+                          </div>
+                       </form>
+                       </div>
+                     </div>
+                     <div class="col-md-12 col-sm-12">
+                       <div class="amt-border-2" value="amt-border-2">
+                          <div class="title">
+                          <i class="fa fa-credit-card"></i>
+                          <h6>Amount in Card</h6>
+                       </div>
+                       <form>
+                          <div class="form-group form-row">
+                             <div class="col-sm-1">
+                                <label for="inputName"> Amount</label>
+                             </div>
+                             <div class="col-sm-3">
+                                <input type="text" class="form-control" placeholder="0.00">
+                             </div>
+                             <div class="col-sm-2">
+                                <label for="inputName" class="space-1">Cash Amount in word</label>
+                             </div>
+                             <div class="col-sm-6">
+                                <input type="text" class="form-control">
+                             </div>
+                          </div>
+                          <div class="form-group form-row">
+                             <div class="col-sm-1">
+                                <label for="inputName">Card Name.</label>
+                             </div>
+                             <div class="col-sm-3">
+                                <input type="text" class="form-control" placeholder="0.00">
+                             </div>
+                             <div class="col-sm-2">
+                                <label for="inputName" class="space-1">Bank Name</label>
+                             </div>
+                             <div class="col-sm-6">
+                                <input type="text" class="form-control">
+                             </div>
+                          </div>
+                       </form>
+                       </div>
+                     </div>
+                     <div class="col-md-12 col-sm-12">
+                       <div class="amt-border-3" value="amt-border-3">
+                          <div class="title">
+                          <i class="fa fa-book"></i>
+                          <h6>Amount in Voucher</h6>
+                       </div>
+                       <form>
+                          <div class="form-group form-row">
+                             <div class="col-sm-1">
+                                <label for="inputName"> Amount</label>
+                             </div>
+                             <div class="col-sm-3">
+                                <input type="text" class="form-control" placeholder="0.00">
+                             </div>
+                             <div class="col-sm-2">
+                                <label for="inputName" class="space-1">Cash Amount in word</label>
+                             </div>
+                             <div class="col-sm-6">
+                                <input type="text" class="form-control">
+                             </div>
+                          </div>
+                          <div class="form-group form-row">
+                             <div class="col-sm-1">
+                                <label for="inputName">Valued Date</label>
+                             </div>
+                             <div class="col-sm-3">
+                                <input type="text" class="form-control" placeholder="0.00">
+                             </div>
+                             <div class="col-sm-2">
+                                <label for="inputName" class="space-1">Voucher No.</label>
+                             </div>
+                             <div class="col-sm-6">
+                                <input type="text" class="form-control">
+                             </div>
+                          </div>
+                       </form>
+                       </div>
+                     </div>
+               </div>
+               <div class="row" style="float: right;">
+                  <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12 mb-5">
+                     <button type="button" class="btn btn-submit">submit</button>
+                     <button type="button" class="btn btn-submit ">Cancel</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="js/jquery-3.2.1.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery.slimscroll.min.js"></script>
+      <script src="js/jquery.dataTables.min.js"></script>
+      <script src="js/datatables.min.js"></script>
+      <script src="js/script.js"></script>
+      <script src="js/jquery.slimscroll.min.js"></script>
+      <script>
+         // jQuery functions to show and hide divisions
+         $(document).ready(function () {
+             $('input[type="checkbox"]').click(function () {
+                 var inputValue = $(this).attr("value");
+                 $("." + inputValue).toggle();
+             });
+         });
+     </script>
+   </body>
+</html>

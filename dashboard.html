@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+      <title>Swarnim</title>
+      <!--Boostrap Core Css Start-->
+      <!-- <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+      <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" type="text/css" href="css/ionicon.min.css">
+      <link rel="stylesheet" href="css/feathericon.min.css">
+      <!--Boostrap Core Css end-->
+      <!--Google Font Css Start-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+      <!--Google Font Css end-->
+      <!--External Core Css start-->
+      <link href="css/default.css" rel="stylesheet" type="text/css" />
+      <link href="css/style.css" rel="stylesheet" type="text/css" />
+      <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+      <link href="css/animate.min.css" rel="stylesheet" />
+      <link href="css/datatables.min.css" rel="stylesheet" />
+   </head>
+   <body>
+      <div class="page-loader ">
+         <div class="spinner"></div>
+         <div class="img-loader">
+         <img src="images/aew.png" alt="">
+      </div>
+      </div>
+      <div class="main-wrapper">
+         <!-- start-Header -->
+         <div class="header">
+            <a href="javascript:void(0);" id="toggle_btn">
+            <i class="fe fe-text-align-left"></i>
+            </a>
+            <div class="header-left">
+               <a href="index-2.html" class="logo">
+               <img src="images/aew.png" alt="Logo">
+               </a>
+               <a href="index-2.html" class="logo logo-small">
+               <img src="images/aew.png" alt="Logo">
+               </a>
+            </div>
+            <div class="top-nav-search">
+               <form>
+                  <input type="text" class="form-control" placeholder="Search Here..">
+                  <button class="btn" type="submit"><i class="fa fa-search"></i></button>
+               </form>
+            </div>
+            <a class="mobile_btn" id="mobile_btn">
+            <i class="fa fa-bars"></i>
+            </a>
+            <ul class="nav user-menu">
+               <li class="nav-item dropdown noti-dropdown">
+                  <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                  <i class="fa fa-bell"></i> <span class="badge badge-pill">3</span>
+                  </a>
+                  <div class="dropdown-menu notifications">
+                     <div class="topnav-dropdown-header">
+                        <span class="notification-title">Notifications</span>
+                        <a href="javascript:void(0)" class="clear-noti"> Clear All </a>
+                     </div>
+                     <div class="noti-content">
+                        <ul class="notification-list">
+                           <li class="notification-message">
+                              <a href="#">
+                                 <div class="media">
+                                    <span class="avatar avatar-sm">
+                                    <img class="avatar-img rounded-circle" alt="User Image" src="assets/img/profiles/avatar-02.jpg">
+                                    </span>
+                                    <div class="media-body">
+                                       <p class="noti-details"><span class="noti-title">Carlson Tech</span> has approved <span class="noti-title">your estimate</span></p>
+                                       <p class="noti-time"><span class="notification-time">4 mins ago</span></p>
+                                    </div>
+                                 </div>
+                              </a>
+                           </li>
+                           <li class="notification-message">
+                              <a href="#">
+                                 <div class="media">
+                                    <span class="avatar avatar-sm">
+                                    <img class="avatar-img rounded-circle" alt="User Image" src="assets/img/profiles/avatar-11.jpg">
+                                    </span>
+                                    <div class="media-body">
+                                       <p class="noti-details"><span class="noti-title">International Software Inc</span> has sent you a invoice in the amount of <span class="noti-title">$218</span></p>
+                                       <p class="noti-time"><span class="notification-time">6 mins ago</span></p>
+                                    </div>
+                                 </div>
+                              </a>
+                           </li>
+                           <li class="notification-message">
+                              <a href="#">
+                                 <div class="media">
+                                    <span class="avatar avatar-sm">
+                                    <img class="avatar-img rounded-circle" alt="User Image" src="assets/img/profiles/avatar-17.jpg">
+                                    </span>
+                                    <div class="media-body">
+                                       <p class="noti-details"><span class="noti-title">John Hendry</span> sent a cancellation request <span class="noti-title">Apple iPhone XR</span></p>
+                                       <p class="noti-time"><span class="notification-time">8 mins ago</span></p>
+                                    </div>
+                                 </div>
+                              </a>
+                           </li>
+                           <li class="notification-message">
+                              <a href="#">
+                                 <div class="media">
+                                    <span class="avatar avatar-sm">
+                                    <img class="avatar-img rounded-circle" alt="User Image" src="assets/img/profiles/avatar-13.jpg">
+                                    </span>
+                                    <div class="media-body">
+                                       <p class="noti-details"><span class="noti-title">Mercury Software Inc</span> added a new product <span class="noti-title">Apple MacBook Pro</span></p>
+                                       <p class="noti-time"><span class="notification-time">12 mins ago</span></p>
+                                    </div>
+                                 </div>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="topnav-dropdown-footer">
+                        <a href="#">View all Notifications</a>
+                     </div>
+                  </div>
+               </li>
+               <li class="nav-item dropdown has-arrow">
+                  <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                  <span class="text-white pr-3">Sham Jewellers</span>
+                  <span class="user-img"><img class="rounded-circle" src="images/avatar-01.jpg" width="31" alt="Ryan Taylor"></span>
+                  </a>
+                  <div class="dropdown-menu">
+                     <a class="dropdown-item" href="profile.html">My Profile</a>
+                     <a class="dropdown-item" href="profile.html">DB Backup</a>
+                     <a class="dropdown-item" href="login.html">Setting</a>
+                     <a class="dropdown-item" href="login.html">Logout</a>
+                  </div>
+               </li>
+            </ul>
+         </div>
+         <!-- End-Header -->
+         <!-- start-sidebar -->
+         <div class="sidebar" id="sidebar">
+            <div class="sidebar-inner slimscroll">
+               <div id="sidebar-menu" class="sidebar-menu">
+                  <ul>
+                     <li class="active">
+                        <a href="dashboard.html"><img src="images/dashboard-icon.png" alt=""> <span>Dashboard</span></a>
+                     </li>
+                     <li>
+                        <a href="master.html"><img src="images/master-icon.png" alt=""> <span>Master</span></a>
+                     </li>
+                     <li>
+                        <a href="trading-account.html"><img src="images/tranding-acc.png" alt=""><span>tRADING aCCOUNT</span></a>
+                     </li>
+                     <li>
+                        <a href="category.html"><img src="images/categ.png" alt=""><span>category</span></a>
+                     </li>
+                     <li>
+                        <a href="stock-setup.html"><img src="images/stock.png" alt=""><span>Stock Setup</span></a>
+                     </li>
+                     <li>
+                        <a href="seller-setup.html"><img src="images/seller-icon.png" alt=""><span>seller setup</span></a>
+                     </li>
+                     
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <!-- End-sidebar -->
+         <!-- start-Content -->
+         <div class="page-wrapper">
+            <div class="content container-fluid">
+             <div class="row">
+                <div class="col-md-3 col-sm-12 col-lg-3 col-xl-3">
+                   <div class="dashboard-section">
+                   <div class="progress-section">
+                      <div class="title">
+                         Sales Report
+                      </div>
+                        <p>8 / 15</p> 
+                        <div class="progress">
+                           <div class="bar" style="width:45%;background:#FF7685;">
+                           </div>
+                        </div>
+                   </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-12 col-lg-3 col-xl-3">
+                  <div class="dashboard-section">
+                  <div class="progress-section">
+                     <div class="title">
+                        Sales Return Report
+                     </div>
+                       <p>3 / 4</p> 
+                       <div class="progress">
+                          <div class="bar" style="width:80%;background:#26F152;">
+                          </div>
+                       </div>
+                  </div>
+                 </div>
+               </div>
+               <div class="col-md-3 col-sm-12 col-lg-3 col-xl-3">
+                  <div class="dashboard-section">
+                  <div class="progress-section">
+                     <div class="title">
+                        Purchase Report
+                     </div>
+                       <p>2 / 5</p> 
+                       <div class="progress">
+                          <div class="bar" style="width:60%;background:#69BBFF;">
+                          </div>
+                       </div>
+                  </div>
+                 </div>
+               </div>
+               <div class="col-md-3 col-sm-12 col-lg-3 col-xl-3">
+                  <div class="dashboard-section">
+                  <div class="progress-section">
+                     <div class="title">
+                        Purchase Return Report
+                     </div>
+                       <p>1 / 5</p> 
+                       <div class="progress">
+                          <div class="bar" style="width:30%;background:#7433FF;">
+                          </div>
+                       </div>
+                  </div>
+                 </div>
+               </div>
+             </div>
+             <div class="row">
+                <div class="col-md-8 col-lg-8 col-xl-8 col-sm-12">
+                   <div class="bg-color">
+                  <canvas id="meuGrafico" style="width: 100%;height: 400px!important;"> </canvas>
+               </div>
+                  
+                </div>
+                <div class="col-md-4 col-lg-4 col-xl-4 col-sm-12">
+                   <div class="row rate-section">
+                      <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12">
+                         <div class="title">
+                            <h6>Today’s Rate</h6>
+                            <div class="btn-section">
+                               <button type="button" class="btn btn-cancel">+ Add Rate Master</button>
+                            </div>
+                         </div>
+                         <div class="content">
+                            <div class="img-section">
+                              <img src="images/gold.png" alt="">
+                            </div>
+                            <div class="metal">
+                               <p>Gold</p>
+                            </div>
+                            <div class="rupee">
+                               <p>Rs. 4534.00  gm</p>
+                            </div>
+                         </div>
+                      </div>
+                      <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12">
+                        <div class="content">
+                           <div class="img-section">
+                             <img src="images/silver.png" alt="">
+                           </div>
+                           <div class="metal">
+                              <p>Silver</p>
+                           </div>
+                           <div class="rupee">
+                              <p>Rs. 63.20  gm</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12">
+                        <div class="content">
+                           <div class="img-section">
+                             <img src="images/platinum.png" alt="">
+                           </div>
+                           <div class="metal">
+                              <p>Platinum</p>
+                           </div>
+                           <div class="rupee">
+                              <p>Rs. 63.20  gm</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12">
+                        <div class="content">
+                           <div class="img-section">
+                             <img src="images/alloy.png" alt="">
+                           </div>
+                           <div class="metal">
+                              <p>Alloy</p>
+                           </div>
+                           <div class="rupee">
+                              <p>Rs. 14.00  gm</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12">
+                        <button type="button" class="btn btn-cancel">Other</button>
+                     </div>
+                   </div>
+                </div>
+             </div>
+             <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xl-12">
+                   <div class="summary-section">
+                   <div class="summary-title">
+                      <h6>Customers Summary</h6>
+                   </div>
+                   <div class="customer">
+                     <ul>
+                        <li>
+                           <a href="">
+                           <div class="customer-box">
+                              <h3>14</h3>
+                              <p>Total Customers</p>
+                           </div>
+                         </a>
+                        </li>
+                        <li>
+                         <a href="">
+                         <div class="customer-box green">
+                            <h3>14</h3>
+                            <p>Active Customers</p>
+                         </div>
+                         </a>
+                      </li>
+                      <li>
+                         <a href="">
+                         <div class="customer-box red">
+                            <h3>0</h3>
+                            <p>Inactive Customers</p>
+                         </div>
+                      </a>
+                      </li>
+                      <li>
+                         <a href="">
+                         <div class="customer-box blue">
+                            <h3>20</h3>
+                            <p>Total Debtors</p>
+                         </div>
+                         </a>
+                      </li>
+                      <li>
+                         <a href="">
+                         <div class="customer-box dark-blue">
+                            <h3>04</h3>
+                            <p>Total Creditors</p>
+                         </div>
+                      </a>
+                      </li>
+                     </ul>
+                  </div>
+                  </div>
+                </div>
+             </div>
+            </div>
+         </div>
+        
+      </div>
+     
+      <script src="js/jquery-3.2.1.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery.slimscroll.min.js"></script>
+      <script src="js/jquery.dataTables.min.js"></script>
+      <script src="js/datatables.min.js"></script>
+      <script src="js/script.js"></script>
+      <script src="js/jquery.slimscroll.min.js"></script>
+      <script src="js/chart.js"></script>
+      <script>
+       
+         var ctx = document.getElementById('meuGrafico').getContext('2d');
+         var chart = new Chart(ctx, {
+             type: 'bar',
+             data: {
+                 // seria a linha do tempo
+                 labels: ['MON', 'TUE', 'WED', 'THU', 'FIR', 'SAT', 'SUN'],
+                 break:5,
+                 // informacoes que vao compor o grafico
+                 datasets: [{
+                         //label = titulo ou rotulo que ficara no top do grafico
+                         label: 'Gold',
+                         // data = são os dados que aqui estao fixos, na sua aplicação deve chegar em um formato especifico "Ex: JSON"
+                         data: [30, 25, 45, 71, 20, 30, 45, 38, 35, 75, 50, 20],
+                         // config a expessura da borda 
+                         borderWidth:1,
+                         // cor da borda
+                         borderColor: 'rgb(255, 118, 133,0.85)',
+                         // cor da barra
+                         backgroundColor: 'rgb(255, 118, 133)',
+                     },
+                     // abaixo temos a mesma construção, mas com dados direntes 
+                     {
+                         label: 'Silver',
+                         data: [45, 30, 15, 68, 49, 80, 54, 40, 47, 80, 15, 45],
+                         borderWidth: 1,
+                         borderColor: 'rgb(38, 241, 82,0.85)',
+                         backgroundColor: 'rgb(38, 241, 82)',
+                     },
+                     {
+                         label: 'Platinum',
+                         data: [20,45, 15, 35, 40,50, 30, 65, 85, 60, 15, 10],
+                         borderWidth: 1,
+                         borderColor: 'rgb(105, 187, 255,0.85)',
+                         backgroundColor: 'rgb(105, 187, 255)',
+                     },
+                     {
+                         label: 'alloy',
+                         data: [10, 3, 15, 35, 20, 70, 35, 75, 54, 25, 40, 20],
+                         borderWidth: 1,
+                         borderColor: 'rgb(116, 51, 255,0.85)',
+                         backgroundColor: 'rgb(116, 51, 255)',
+                     },
+                 ]
+             },
+             
+             // options = seria o cabeçalho, mas tem diversas customizações
+             options: {
+                 // aqui o display do title é true então vai aparecer
+                 title: {
+                     display: true,
+                     // tamanho da font
+                     fontSize: 14,
+                     // texto do nosso titulo
+                     text: 'Weekly Revenue sales Report'
+                 }
+             }
+         });
+     </script>
+   </body>
+</html>
